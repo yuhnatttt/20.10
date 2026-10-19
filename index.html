@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#18152e" />
+  <meta name="description" content="Một món quà nhỏ, dễ thương cho ngày 20/10." />
+  <title>Sự thức giấc của Tấn Huy | 20/10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header>
+      <div class="logo"><span class="logo-icon">✦</span> HUY'S WORLD</div>
+      <div class="date-tag">20 / 10 · A LITTLE SURPRISE</div>
+    </header>
+
+    <main>
+      <section class="copy" aria-labelledby="heading">
+        <div class="eyebrow">Một điều bé xíu nhưng đặc biệt</div>
+        <h1 id="heading">Khi Huy<br><em>thức giấc...</em> ✨</h1>
+        <p class="subtitle" id="story">
+          Giữa một bầu trời đầy sao, có một bạn nhỏ đang ngủ say.
+          Huy mang theo một món quà dành riêng cho ngày 20/10.
+          Cậu có muốn đánh thức Huy không?
+        </p>
+        <div class="actions">
+          <button class="primary" id="actionBtn" type="button"><span id="actionIcon">☀</span> <span id="actionText">Đánh thức Huy</span> <span aria-hidden="true">→</span></button>
+          <span class="huy-note">Một chút phép màu đang chờ...</span>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite">✧ Huy đang mơ một giấc mơ thật đẹp.</p>
+        <div class="hint">♡ Món quà này được làm bằng thật nhiều yêu thương.</div>
+      </section>
+
+      <div class="scene-wrap">
+        <div class="halo" aria-hidden="true"></div>
+        <div class="scene" id="scene" role="img" aria-label="Huy, thằng nhỏ đang ngủ dưới bầu trời đêm">
+          <div class="moon" aria-hidden="true"></div>
+          <div class="cloud one" aria-hidden="true"></div>
+          <div class="cloud two" aria-hidden="true"></div>
+          <div class="hill back" aria-hidden="true"></div>
+          <div class="hill" aria-hidden="true"></div>
+          <div class="hill front" aria-hidden="true"></div>
+          <div class="bubble" id="bubble" aria-hidden="true">Z z z...</div>
+          <!-- SVG: nhân vật Huy tự vẽ, không phụ thuộc hình ảnh bên ngoài -->
+          <svg class="huy-character" viewBox="0 0 320 340" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <!-- Hai tai thỏ -->
+            <g fill="#fff3e9" stroke="#e9cddd" stroke-width="5">
+              <ellipse cx="111" cy="102" rx="31" ry="91" transform="rotate(-13 111 102)"/>
+              <ellipse cx="219" cy="100" rx="31" ry="91" transform="rotate(13 219 100)"/>
+            </g>
+            <ellipse cx="111" cy="100" rx="13" ry="65" fill="#f7b9cc" transform="rotate(-13 111 100)"/>
+            <ellipse cx="219" cy="100" rx="13" ry="65" fill="#f7b9cc" transform="rotate(13 219 100)"/>
+            <!-- Thân, chân và tay -->
+            <ellipse cx="160" cy="263" rx="87" ry="66" fill="#fff3e9" stroke="#e9cddd" stroke-width="5"/>
+            <ellipse cx="105" cy="303" rx="37" ry="24" fill="#fff1e9" stroke="#e9cddd" stroke-width="5" transform="rotate(-13 105 303)"/>
+            <ellipse cx="218" cy="303" rx="37" ry="24" fill="#fff1e9" stroke="#e9cddd" stroke-width="5" transform="rotate(13 218 303)"/>
+            <ellipse cx="84" cy="242" rx="30" ry="19" fill="#fff3e9" stroke="#e9cddd" stroke-width="4" transform="rotate(-25 84 242)"/>
+            <ellipse cx="236" cy="242" rx="30" ry="19" fill="#fff3e9" stroke="#e9cddd" stroke-width="4" transform="rotate(25 236 242)"/>
+            <!-- Mặt -->
+            <ellipse cx="160" cy="174" rx="106" ry="92" fill="#fff8ee" stroke="#e9cddd" stroke-width="5"/>
+            <ellipse cx="91" cy="188" rx="22" ry="13" fill="#ffb6ca" opacity=".9"/>
+            <ellipse cx="229" cy="188" rx="22" ry="13" fill="#ffb6ca" opacity=".9"/>
+            <g class="eyes-sleep" fill="none" stroke="#70506c" stroke-width="6" stroke-linecap="round">
+              <path d="M105 163 Q124 178 142 163" />
+              <path d="M179 163 Q198 178 216 163" />
+            </g>
+            <g class="eyes-awake">
+              <ellipse cx="124" cy="164" rx="11" ry="17" fill="#70506c"/>
+              <ellipse cx="198" cy="164" rx="11" ry="17" fill="#70506c"/>
+              <circle cx="128" cy="158" r="4" fill="white"/>
+              <circle cx="202" cy="158" r="4" fill="white"/>
+            </g>
+            <path d="M151 193 Q160 201 169 193 Q160 185 151 193" fill="#d88baa" />
+            <path d="M160 199 Q153 207 146 201 M160 199 Q167 207 174 201" fill="none" stroke="#886079" stroke-width="3.5" stroke-linecap="round"/>
+            <!-- Nơ cổ -->
+            <path d="M159 240 Q127 213 126 247 Q131 263 158 248 Q185 264 193 246 Q190 213 159 240Z" fill="#ff8db2" stroke="#e876a0" stroke-width="3"/>
+            <circle cx="159" cy="244" r="10" fill="#ffd7e4" stroke="#e876a0" stroke-width="3"/>
+          </svg>
+          <div class="scene-flowers" aria-hidden="true">
+            <span class="flower a">🌸</span><span class="flower b">🌷</span>
+            <span class="flower c">✿</span><span class="flower d">✦</span>
+          </div>
+        </div>
+        <div class="orbit-label">✧ for someone special</div>
+      </div>
+    </main>
+
+    <footer><span>Made with ♡ for 20.10</span><span>Điều giản dị cũng có thể thật đáng yêu.</span></footer>
+  </div>
+
+  <dialog id="giftDialog" aria-labelledby="cardTitle">
+    <div class="letter">
+      <button type="button" class="close" id="closeBtn" aria-label="Đóng thiệp">×</button>
+      <div class="card-flower" aria-hidden="true">💐</div>
+      <div class="caps">A NOTE FROM HUY · 20/10</div>
+      <h2 id="cardTitle">Chúc mừng 20/10!</h2>
+      <p id="wishText"></p>
+      <div class="signature" id="signature"></div>
+      <button type="button" class="again" id="againBtn">↺ Xem lại từ đầu</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
